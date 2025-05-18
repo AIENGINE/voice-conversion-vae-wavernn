@@ -6,7 +6,7 @@
 - Python 3.10.12
 
 
-## Requirements:
+~~## Requirements:~~
 - UNIX
 - 3.6 >= python <= 3.9
 - CUDA 11.1
