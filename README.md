@@ -1,6 +1,11 @@
 # Low-latency real-time multispeaker voice conversion (VC) with cyclic variational autoencoder (CycleVAE) and multiband WaveRNN using data-driven linear prediction (MWDLP)
 
 
+## Updated System Requirements (see updated requirements tools/requirements_py_31012.txt based on CUDA 11.3)
+- Ubuntu 22.04
+- Python 3.10.12
+
+
 ## Requirements:
 - UNIX
 - 3.6 >= python <= 3.9
