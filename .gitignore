@@ -1,0 +1,105 @@
+# Python virtual environment
+tools/venv/
+venv/
+ENV/
+env/
+.env
+.venv
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Compiled C/C++ objects
+*.o
+*.ko
+*.obj
+*.elf
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Binaries and executable folders
+bin/
+egs/*/demo_realtime/bin/
+egs/*/demo_realtime_*/bin/
+
+# Generated C code from model dumps
+egs/*/demo_realtime/src/mwdlp*.c
+egs/*/demo_realtime/src/nnet_data.c
+egs/*/demo_realtime/src/nnet_cv_data.c
+egs/*/demo_realtime/inc/mwdlp*.h
+egs/*/demo_realtime/inc/nnet_data.h
+egs/*/demo_realtime/inc/nnet_cv_data.h
+egs/*/demo_realtime_*/src/mwdlp*.c
+egs/*/demo_realtime_*/src/nnet_data.c
+egs/*/demo_realtime_*/src/nnet_cv_data.c
+egs/*/demo_realtime_*/inc/mwdlp*.h
+egs/*/demo_realtime_*/inc/nnet_data.h
+egs/*/demo_realtime_*/inc/nnet_cv_data.h
+
+# Object file directories
+egs/*/demo_realtime/obj/
+egs/*/demo_realtime_*/obj/
+egs/*/demo_realtime/lib/
+egs/*/demo_realtime_*/lib/
+
+# Model checkpoints and configs
+*.pkl
+*.npz
+*.npy
+*.pth
+*.h5
+*.pt
+*.conf
+
+# Dataset files
+data/
+corpus/
+datasets/
+wav_*/
+egs/*/downloads/
+egs/*/wav_*_*kHz*/
+egs/*/wav_*/
+egs/*/wav_*_*/
+egs/*/data/
+
+# Generated features
+egs/*/dump/
+egs/*/feats/
+egs/*/mels/
+egs/*/exp/
+
+# Log files
+*.log
+tensorboard/
+runs/
+logs/
+egs/*/exp/*/log
+egs/*/exp/*/logs
+
+# IDE-specific directories
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Configuration overrides
+.env
+.env.*
+config_local.py
+
+# Temporary files
+tmp/
+temp/
