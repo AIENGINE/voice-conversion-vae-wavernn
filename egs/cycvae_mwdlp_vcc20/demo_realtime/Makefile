@@ -24,7 +24,7 @@ OBJS = $(patsubst %,$(ODIR)/%,$(_OBJS))
 
 
 all: ${OUT}
-	$(CC) $(CFLAGS) ${SDIR}/${TARGET}.c $(INC) ${LIB} ${LFLAGS} -o ${BDIR}/${TARGET}
+	$(CC) $(CFLAGS) ${SDIR}/test_cycvae_mwdlp.c $(INC) ${LIB} ${LFLAGS} -o ${BDIR}/${TARGET}
 
 $(OUT): $(OBJS) 
 	ar rvs $(OUT) $^

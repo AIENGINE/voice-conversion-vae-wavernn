@@ -342,7 +342,7 @@ if [ `echo ${stage} | grep 0` ];then
     ${train_cmd} ${expdir_sp}/dump_model.log \
         dump_sparse-cyclevae_jnt_mwdlp-10b.py \
             ${expdir_sp}/model.conf \
-            ${expdir_sp}/checkpoint-${min_idx_sp}.pkl \
+            ${expdir_sp}/checkpoint-53.pkl \
             --fs ${fs} \
             --shiftms ${shiftms} \
             --winms ${winms} \

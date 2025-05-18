@@ -10,6 +10,7 @@ endif
 PYTHON_VERSION_WITHOUT_DOT = $(strip $(subst .,,$(PYTHON_VERSION)))
 
 # Python 3.8+ uses different ABI tags
+
 ifeq ($(PYTHON_VERSION_OK),0)
   $(error "Python version ${PYTHON_VERSION} is outside the supported range (${PYTHON_VERSION_MIN} to ${PYTHON_VERSION_MAX})")
 endif
@@ -29,7 +30,7 @@ all: activate torch
 
 activate:
 	test -d venv || virtualenv -p python$(PYTHON_VERSION) venv
-	. venv/bin/activate; pip install pip --upgrade; pip install -r requirements.txt; pip install matplotlib;
+	. venv/bin/activate; pip install pip --upgrade; pip install -r requirements_py_31012.txt; pip install matplotlib;
 	touch venv/bin/activate
 
 torch: activate
